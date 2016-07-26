@@ -12,6 +12,8 @@ namespace welp_code_first.Models
         public int UserID { get; set; }
         [MaxLength(50)]
         public string Username { get; set; }
+        public string Password { get; set; }
+        //need to find how to use hashset for password
         //HashSet<string> PasswordHashset = new HashSet<string> { get; set; }
         //var Password = new HashSet<int>(Password.Users.Select(char => c.UserID));
         public string Email { get; set; }
