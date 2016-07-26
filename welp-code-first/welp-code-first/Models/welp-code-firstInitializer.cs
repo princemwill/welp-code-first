@@ -9,9 +9,10 @@ namespace welp_code_first.Models
     {
         protected override void Seed(welp_code_firstContext context)
         {
+                      
+            context.Users.Add(new User() { Username = "PeterParker", Email = "AmzngSpdrMn@PwrRsblty.com", Password = "BlueNred" });
+            context.Users.Add(new User() { Username = "MilesMorales", Email = "SpdrMn@PwrRsblty.com", Password = "BlackNred" });
 
-            //context.Users.Add(new User() { Username = "MilesMorales", Email = "SpdrMn@PwrRsblty.com" });
-            //context.Users.Add(new User() { Username = "PeterParker", Email = "AmzngSpdrMn@PwrRsblty.com" });
             base.Seed(context);
 
         }
