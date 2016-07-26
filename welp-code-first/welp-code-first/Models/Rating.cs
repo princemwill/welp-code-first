@@ -15,7 +15,7 @@ namespace welp_code_first.Models
         public string TextReview { get; set; }
 
 
-        //Navigation properties... first "Student" is the class Student and 2nd is variable Student...Same for "Course"
+        //Navigation properties... first "User" is the class User and 2nd is variable User...Same for "Business"
         public virtual User User { get; set; }
         public virtual Business Business { get; set; }
 
