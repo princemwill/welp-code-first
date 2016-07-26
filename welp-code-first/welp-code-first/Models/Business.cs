@@ -22,7 +22,7 @@ namespace welp_code_first.Models
         public string Phone { get; set; }
         [MaxLength(100)]
         public string Menu { get; set; }
-        public int UserID { get; set; }
+        public int? UserID { get; set; }
 
         //Navigation properties
         public virtual ICollection<Rating> Rating { get; set; }
