@@ -27,6 +27,7 @@ namespace welp_code_first.Models
         //Navigation properties
         public virtual ICollection<Rating> Rating { get; set; }
         public virtual BusinessType BusinessType { get; set; }
+        public virtual User User { get; set; }
 
 
     }
