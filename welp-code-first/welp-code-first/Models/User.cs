@@ -22,6 +22,7 @@ namespace welp_code_first.Models
 
         //Navigation properties.... "virtual" means it can be overridden
         public virtual ICollection<Rating> Ratings { get; set; }
+        public virtual ICollection<Business> Businesses { get; set; }
 
 
     }
